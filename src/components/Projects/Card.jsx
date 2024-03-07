@@ -8,14 +8,12 @@ const Card = ({ title, content, img, tag, link }) => {
         target="_blank"
         className="flex flex-col items-center justify-center mx-2 mb-10 text-lg transition-colors rounded-lg cursor-pointer hover:bg-white hover:bg-opacity-10 hover:drop-shadow-md"
       >
-        <div className="flex flex-col lg:block lg:w-[400px] pb-7">
-          <div className="flex justify-center">
-            <div
-              className="w-[340px] h-[170px] m-5 rounded-lg bg-cover bg-white"
-              style={{ backgroundImage: `url(${img})` }}
-            ></div>
-          </div>
-          <div className="flex w-[340px]">
+        <div className="pb-7">
+          <div
+            className="w-[340px] h-[170px] m-5 rounded-lg bg-cover bg-white"
+            style={{ backgroundImage: `url(${img})` }}
+          ></div>
+          <div className="flex">
             <h1 className="ml-5 lg:ml-7 text-xl text-white this hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 font-Inter">
               {title}
             </h1>
