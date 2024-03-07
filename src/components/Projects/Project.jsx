@@ -9,7 +9,7 @@ const Project = () => {
       <h1 className="flex justify-center mt-10 mb-5 text-2xl text-transparent this bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 font-Inter">
         Projects
       </h1>
-      <div className="flex flex-col items-center justify-center lg:flex-row">
+      <div className="flex flex-col lg:items-start items-center justify-center lg:flex-row">
         <Card
           img={ghibli}
           title={"Ghibli"}
