@@ -16,7 +16,7 @@ const Home = () => {
       id="home"
       className="pt-1 flex flex-col-reverse items-center lg:flex lg:flex-row lg:justify-center lg:mt-52 lg:space-x-20"
     >
-      <div className="w-80 lg:w-[35%]">
+      <div className="w-80 md:w-[60%] lg:w-[35%]">
         <h1 className="this mt-10 text-5xl text-white lg:text-6xl lg:mt-0">
           Hi, I'm{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
