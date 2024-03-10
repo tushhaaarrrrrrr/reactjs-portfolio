@@ -36,7 +36,7 @@ const Project = () => {
             "This project is a web application built using Next.js framework for server-side rendering and React.js"
           }
           tag={"NextJS"}
-          link={"https://marrrkkk.github.io/MarkLouie/"}
+          link={"https://nextjs-movie-search.vercel.app/"}
         />
         <Card
           img={lastfm}
@@ -44,6 +44,7 @@ const Project = () => {
           content={
             "Python script for automatic music scrobbling to Last.fm using the Last.fm API."
           }
+          link={"https://github.com/marrrkkk/lastfm-auto-scrobbler"}
           tag={"Python"}
         />
       </div>
