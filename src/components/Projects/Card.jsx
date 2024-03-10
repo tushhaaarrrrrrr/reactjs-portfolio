@@ -6,11 +6,11 @@ const Card = ({ title, content, img, tag, link }) => {
       <a
         href={link}
         target="_blank"
-        className="flex flex-col items-center justify-center mx-2 mb-10 text-lg transition-colors rounded-lg cursor-pointer hover:bg-white hover:bg-opacity-10 hover:drop-shadow-md"
+        className="flex flex-col items-center justify-center mx-3 mb-10 text-lg lg:h-[400px] transition-colors rounded-lg cursor-pointer hover:bg-white hover:bg-opacity-10 hover:drop-shadow-md"
       >
         <div className="pb-7">
           <div
-            className="w-[340px] h-[170px] m-5 rounded-lg bg-cover bg-white"
+            className="w-[280px] h-[170px] m-5 rounded-lg bg-cover bg-white"
             style={{ backgroundImage: `url(${img})` }}
           ></div>
           <div className="flex">
@@ -19,7 +19,7 @@ const Card = ({ title, content, img, tag, link }) => {
             </h1>
             <img src={arrow} width={20} />
           </div>
-          <p className="w-[340px] mb-2 ml-5 lg:ml-7 text-sm">{content}</p>
+          <p className="w-[280px] mb-2 ml-5 lg:ml-7 text-sm">{content}</p>
           <div className="flex">
             <p className="px-5 py-2 m-3 ml-5 lg:ml-7 text-sm text-black bg-white rounded-3xl">
               {tag}
