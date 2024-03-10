@@ -6,7 +6,7 @@ const Card = ({ title, content, img, tag, link }) => {
       <a
         href={link}
         target="_blank"
-        className="flex flex-col items-center justify-center mx-3 mb-10 text-lg lg:h-[400px] transition-colors rounded-lg cursor-pointer hover:bg-white hover:bg-opacity-10 hover:drop-shadow-md"
+        className="flex flex-col items-center justify-center mx-3 mb-10 text-lg lg:h-[93%] transition-colors rounded-lg cursor-pointer hover:bg-white hover:bg-opacity-10 hover:drop-shadow-md"
       >
         <div className="pb-7">
           <div
