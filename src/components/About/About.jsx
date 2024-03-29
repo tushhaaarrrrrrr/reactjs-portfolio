@@ -20,22 +20,22 @@ const About = () => {
           </pre>
           <pre>
             &nbsp;2 <span className="text-[#ea7461]">    name</span>:{" "}
-            <span className="text-[#88af62]">'Mark Louie Alvarez'</span>,
+            <span className="text-[#88af62]">'Tushar Das'</span>,
           </pre>
           <pre>
             &nbsp;3 <span className="text-[#ea7461]">    age</span>:{" "}
-            <span className="text-[#c38e58]">19</span>,
+            <span className="text-[#c38e58]">20</span>,
           </pre>
           <pre>
             &nbsp;4 <span className="text-[#ea7461]">    location</span>:{" "}
-            <span className="text-[#88af62]">'Philippines'</span>,
+            <span className="text-[#88af62]">'Assam, India'</span>,
           </pre>
           <pre>
             &nbsp;5 <span className="text-[#ea7461]">    interest</span>:{" "}
             <span className="text-[#c3a2ef]">&#91;</span>
             <span className="text-[#88af62]">'coding'</span>,{" "}
             <span className="text-[#88af62]">'gaming'</span>,{" "}
-            <span className="text-[#88af62]">'tech'</span>
+            <span className="text-[#88af62]">'trading'</span>
             <span className="text-[#c3a2ef]">&#93;</span>,
           </pre>
           <pre>
@@ -44,16 +44,16 @@ const About = () => {
           </pre>
           <pre>
             &nbsp;7 <span className="text-[#ea7461]">            email</span>:{" "}
-            <span className="text-[#88af62]">'definitelynotmark@gmail.com</span>
+            <span className="text-[#88af62]">'tushhaaarrrrrrr.das@gmail.com</span>
             ',
           </pre>
           <pre>
-            &nbsp;8 <span className="text-[#ea7461]">            linkedin</span>:{" "}
-            <span className="text-[#88af62]">'Mark Louie Alvarez'</span>,
+            &nbsp;8 <span className="text-[#ea7461]">            phone</span>:{" "}
+            <span className="text-[#88af62]">'+91 88220 96503'</span>,
           </pre>
           <pre>
-            &nbsp;9 <span className="text-[#ea7461]">            twitter</span>:{" "}
-            <span className="text-[#88af62]">'marrkkk___'</span>
+            &nbsp;9 <span className="text-[#ea7461]">            linkedin</span>:{" "}
+            <span className="text-[#88af62]">'tushhaaarrrrrrr'</span>
           </pre>
           <pre>
             10 <span className="text-[#ad5b45]">    &#125;</span>

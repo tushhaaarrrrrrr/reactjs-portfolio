@@ -4,9 +4,10 @@ import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import tailwind from "../../assets/tailwind.svg";
 import nodejs from "../../assets/nodejs.svg";
+import python from "../../assets/python.svg";
 
 const Techstack = () => {
-  const icons = [react, js, html, css, tailwind, nodejs];
+  const icons = [react, js, html, python, tailwind, nodejs, css];
   return (
     <section className="flex justify-center mt-10 mb-40">
       <ul className="flex flex-wrap space-x-3 lg:space-x-4">

@@ -1,8 +1,8 @@
 import Card from "./Card";
-import snipe from "../../assets/snipe.webp";
-import ghibli from "../../assets/Ghibli.webp";
-import movie from "../../assets/movie.webp";
-import lastfm from "../../assets/lastfm.webp";
+import snipe from "../../assets/Healthcare-costs.webp";
+import ghibli from "../../assets/book-recommendation-system.jpg";
+import movie from "../../assets/spam.png";
+import lastfm from "../../assets/stock.jpg";
 
 const Project = () => {
   return (
@@ -13,39 +13,39 @@ const Project = () => {
       <div className="flex flex-col items-center justify-center lg:grid lg:grid-cols-2 lg:gap-4">
         <Card
           img={ghibli}
-          title={"Ghibli"}
+          title={"Book Recommendation Engine"}
           content={
-            "A Ghibli inspired web design, my very first attempt on designing using figma"
+            "A Book Recommendation Engine that uses the K-Nearest Neighbors (KNN) algorithm"
           }
-          tag={"Figma"}
-          link={"https://www.behance.net/gallery/182842763/Ghibli-Web-Design"}
+          tag={"Google Collab"}
+          link={"https://colab.research.google.com/drive/158SxIY5ROtI_7fyoev7Pag5f381d8w_U?usp=drive_link"}
         />
         <Card
           img={snipe}
-          title={"Snipebot"}
+          title={"Health Costs Calculator"}
           content={
-            "Snipe is an advanced Discord SnipeBot that can retrieve upto 20 deleted/edited messages."
+            "An Health Costs Calculator that uses Linear Regression"
           }
-          tag={"Discord.js"}
-          link={"https://github.com/marrrkkk/SnipeBot"}
+          tag={"Google Colab"}
+          link={"https://colab.research.google.com/drive/1zPNFZT052uAfbMOvy08PlknZY7KInw-G?usp=drive_link"}
         />
         <Card
           img={movie}
-          title={"Movie Search App"}
+          title={"SMS Text Classifier"}
           content={
-            "This project is a web application built using Next.js framework for server-side rendering and React.js"
+            "A Hybrid CNN-LSTM Model for SMS Spam Detection"
           }
-          tag={"NextJS"}
-          link={"https://nextjs-movie-search.vercel.app/"}
+          tag={"Google Colab"}
+          link={"https://colab.research.google.com/drive/1rjQ1Nw5DUSzAph9DLWhydJ8eVvegmEbu?usp=drive_link"}
         />
         <Card
           img={lastfm}
-          title={"Lastfm Scrobbler"}
+          title={"Stock Price Forecaster"}
           content={
-            "Python script for automatic music scrobbling to Last.fm using the Last.fm API."
+            "A Stock Price Forecaster *Definitely not financial advice*"
           }
-          link={"https://github.com/marrrkkk/lastfm-auto-scrobbler"}
-          tag={"Python"}
+          link={"https://colab.research.google.com/drive/1tNTQR6PDgFKYWGpb09sh9FVLy1qVE_Dc?usp=drive_link"}
+          tag={"Google Collab"}
         />
       </div>
     </section>

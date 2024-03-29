@@ -1,4 +1,3 @@
-import Nav from "./components/Home/Nav";
 import Home from "./components/Home/Home";
 import Techstack from "./components/About/Techstack";
 import Blur from "./components/Blur";
@@ -12,7 +11,6 @@ const App = () => {
     <>
       <AnimatedCursor color="255, 255, 255" innerSize={20} />
       <header>
-        <Nav />
       </header>
       <main>
         <Home />
