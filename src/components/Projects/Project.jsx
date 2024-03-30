@@ -33,7 +33,7 @@ const Project = () => {
           img={movie}
           title={"SMS Text Classifier"}
           content={
-            "A Hybrid CNN-LSTM Model for SMS Spam Detection"
+            "A Hybrid CNN-LSTM Model for SMS Spam Detection utilizing an embedding layer followed by a combination of convolutional and bidirectional LSTM layers, with dropout regularization and binary cross-entropy loss for training."
           }
           tag={"Google Colab"}
           link={"https://colab.research.google.com/drive/1rjQ1Nw5DUSzAph9DLWhydJ8eVvegmEbu?usp=drive_link"}
