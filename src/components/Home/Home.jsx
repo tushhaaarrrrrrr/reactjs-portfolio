@@ -29,12 +29,12 @@ const Home = () => {
           </span>{" "}
           Developer
         </h1>
-        <p className="mt-3 text-left">
+        <p className="mt-3 text-left ">
           Hello! I'm Tushar Das, a full-stack developer proficient in HTML5, CSS, 
           JavaScript, and frameworks including Bootstrap, jQuery, SASS, React, and Redux. 
           I'm skilled in creating visually appealing and user-friendly websites prioritizing exceptional user experiences. 
           I'm also proficient in Python for scientific computing with tools like Jupyter Notebooks, NumPy, Pandas, and data 
-          visualization libraries. I have extensive expertise in machine learning with TensorFlow, Keras, NLP, 
+          visualization libraries. Additionally, I have extensive expertise in machine learning with TensorFlow, Keras, NLP, 
           reinforcement learning, and deep learning.</p>
         <ul className="flex mt-3 space-x-4">
           {icon.map((icon, i) => (
