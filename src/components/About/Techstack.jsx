@@ -13,7 +13,7 @@ const Techstack = () => {
       <ul className="flex flex-wrap space-x-3 lg:space-x-4">
         {icons.map((icon, i) => (
           <li key={i}>
-            <img src={icon} className="w-[40px] md:w-[55px] lg:w-[70px]" />
+            <img src={icon} className="w-[40px] md:w-[55px] lg:w-[70px]" style={{ verticalAlign: 'middle' }} />
           </li>
         ))}
       </ul>
