@@ -42,7 +42,7 @@ const Project = () => {
           img={lastfm}
           title={"Stock Price Forecaster"}
           content={
-            "A Stock Price Forecaster *Definitely not financial advice*"
+            "The project involves developing a time-series forecasting model using LSTM (Long Short-Term Memory) neural networks to predict future values of a stock *Definitely not financial advice*"
           }
           link={"https://colab.research.google.com/drive/1tNTQR6PDgFKYWGpb09sh9FVLy1qVE_Dc?usp=drive_link"}
           tag={"Google Collab"}
