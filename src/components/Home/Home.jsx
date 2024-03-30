@@ -30,12 +30,7 @@ const Home = () => {
           Developer
         </h1>
         <p className="mt-3 text-left ">
-          Hello! I'm Tushar Das, a full-stack developer proficient in HTML5, CSS, 
-          JavaScript, and frameworks including Bootstrap, jQuery, SASS, React, and Redux. 
-          I'm skilled in creating visually appealing and user-friendly websites prioritizing exceptional user experiences. 
-          I'm also proficient in Python for scientific computing with tools like Jupyter Notebooks, NumPy, Pandas, and data 
-          visualization libraries. Additionally, I have extensive expertise in machine learning with TensorFlow, Keras, NLP, 
-          reinforcement learning, and deep learning.</p>
+        Greetings! I'm Tushar Das, a multifaceted developer skilled in both front-end and back-end technologies. I specialize in HTML5, CSS, JavaScript, and frameworks such as Bootstrap, jQuery, SASS, React, and Redux, enabling me to design visually stunning and user-centric websites that prioritize seamless experiences. Beyond front-end development, I am proficient in Python for scientific computing using Jupyter Notebooks, NumPy, Pandas, and data visualization tools. Additionally, I possess extensive knowledge in machine learning, utilizing TensorFlow, Keras, NLP, reinforcement learning, and deep learning techniques to tackle complex data challenges.</p>
         <ul className="flex mt-3 space-x-4">
           {icon.map((icon, i) => (
             <a href={link[i]} target="_blank" key={i}>
