@@ -15,7 +15,7 @@ const Project = () => {
           img={ghibli}
           title={"Book Recommendation Engine"}
           content={
-            "A Book Recommendation Engine that uses the K-Nearest Neighbors (KNN) algorithm"
+            "A book recommendation engine utilizing the K-Nearest Neighbors (KNN) algorithm identifies books similar to a given book by calculating the similarity between books based on features like genre, author, and reader ratings, recommending those with the closest proximity in feature space."
           }
           tag={"Google Collab"}
           link={"https://colab.research.google.com/drive/158SxIY5ROtI_7fyoev7Pag5f381d8w_U?usp=drive_link"}
@@ -24,7 +24,7 @@ const Project = () => {
           img={snipe}
           title={"Health Costs Calculator"}
           content={
-            "An Health Costs Calculator that uses Linear Regression"
+            "An Health Costs Calculator that utilizes a deep neural network model for linear regression, aiming to predict health costs based on input features, with mean absolute error, mean squared error metrics, and Adam optimizer."
           }
           tag={"Google Colab"}
           link={"https://colab.research.google.com/drive/1zPNFZT052uAfbMOvy08PlknZY7KInw-G?usp=drive_link"}
