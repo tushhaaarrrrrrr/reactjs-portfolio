@@ -33,9 +33,9 @@ const About = () => {
           <pre>
             &nbsp;5 <span className="text-[#ea7461]">    interest</span>:{" "}
             <span className="text-[#c3a2ef]">&#91;</span>
-            <span className="text-[#88af62]">'coding'</span>,{" "}
-            <span className="text-[#88af62]">'gaming'</span>,{" "}
-            <span className="text-[#88af62]">'trading'</span>
+            <span className="text-[#88af62]">'Coding'</span>,{" "}
+            <span className="text-[#88af62]">'Gaming'</span>,{" "}
+            <span className="text-[#88af62]">'Trading'</span>
             <span className="text-[#c3a2ef]">&#93;</span>,
           </pre>
           <pre>
@@ -44,7 +44,7 @@ const About = () => {
           </pre>
           <pre>
             &nbsp;7 <span className="text-[#ea7461]">            email</span>:{" "}
-            <span className="text-[#88af62]">'tushhaaarrrrrrr.das@gmail.com</span>
+            <span className="text-[#88af62]">'tushhaaarrrrrrr.das@gmail.com'</span>
             ',
           </pre>
           <pre>
