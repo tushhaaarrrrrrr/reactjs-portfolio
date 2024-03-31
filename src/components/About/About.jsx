@@ -45,7 +45,7 @@ const About = () => {
           <pre>
             &nbsp;7 <span className="text-[#ea7461]">            email</span>:{" "}
             <span className="text-[#88af62]">'tushhaaarrrrrrr.das@gmail.com'</span>
-            ',
+            ,
           </pre>
           <pre>
             &nbsp;8 <span className="text-[#ea7461]">            phone</span>:{" "}
